@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/brandoncabael/gw2_verifybot_wrapper#readme",
   "dependencies": {
-    "gw2-api": "^2.1.0"
+    "gw2-api": "^2.1.0",
+    "node-rest-client": "^3.1.0"
   }
 }
