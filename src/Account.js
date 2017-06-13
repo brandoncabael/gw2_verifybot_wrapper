@@ -1,5 +1,6 @@
 var Client = require('node-rest-client').Client;
 var World = require('./World');
+var Guild = require('./Guild');
 
 class Account {
     constructor(apiKey) {
@@ -33,6 +34,10 @@ class Account {
 
     getworld() {
         return new World(this.data.world)
+    }
+
+    getguild() {
+        return new Guild(this.data.guilds)
     }
 }
 

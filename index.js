@@ -16,6 +16,10 @@ var afterLoad = (err) => {
         world.load((err) => {
             console.log(world.data);
         })
+        var guild = account.getguild()
+        guild.load((err) => {
+            console.log(guild.data);
+        })
     }
 };
 
